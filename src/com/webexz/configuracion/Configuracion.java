@@ -7,9 +7,11 @@ import com.webexz.ioc.IEntrenador;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan("com.webexz")
+@PropertySource("classpath:propiedades.properties")
 public class Configuracion {
     @Bean
     public IFrases frasesNegativasImpl() {

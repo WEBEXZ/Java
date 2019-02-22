@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Inicio</title>
   </head>
   <body>
-    <p>${algo}</p>
+    <a href="./showFormulario">Formulario</a>
   </body>
 </html>

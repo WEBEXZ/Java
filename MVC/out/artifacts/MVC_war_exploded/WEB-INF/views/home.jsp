@@ -11,6 +11,6 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Bienvenido</h1>
+    <h1>Bienvenido ${param.nombre}</h1>
 </body>
 </html>
